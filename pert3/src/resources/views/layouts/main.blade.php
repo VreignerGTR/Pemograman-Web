@@ -9,11 +9,13 @@
 </head>
 <body>
     @include('partials.header')
+    <h1>hello123 nibba</h1>
     <main class="container mt-5">
         @yield('content')
     </main>
 </body>
-    
+ 
     @include('partials.footer')
     @include('partials.scripts')
+
 </html>
